@@ -9,8 +9,12 @@
 @import "component/app-screen";
 @import "component/get-connected";
 @import "component/smart-assistant.scss";
-@import "component/blog-section.scss";
+@import "component/blog-listing.scss";
 @import "component/footer.scss";
+@import "component/blog-details.scss";
 
 @import "modules/buttons";
+
+@import "custom/blog.scss";
+@import "custom/blog-detail.scss";
 

@@ -3,7 +3,10 @@
     z-index: 0;
     text-align: center;
     padding-bottom: 48px;
-
+.content{
+    position: relative;
+    z-index: 10;
+}
     .top-left {
         position: absolute;
         left: 0;
