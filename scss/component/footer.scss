@@ -20,9 +20,7 @@
             margin-left: 5vw;
             margin-top: 40px;
 
-            &:first-child {
-                margin-left: 0;
-            }
+            
 
             .field-head {
                 color: #fff;
@@ -132,13 +130,7 @@
 
 
 
-    .copyright {
-        color: #F68948;
-        text-align: right;
-        font-size: 12px;
-        line-height: 16px;
-        padding: 20px 0;
-    }
+
 
     @media screen and (max-width:1200px) {
         .right-section {
@@ -155,22 +147,6 @@
 
             .footer-field {
                 flex-direction: column;
-
-                &:first-child {
-                    margin-left: 7vw;
-                }
-
-                .field-head:after {
-                    content: "";
-                    -webkit-mask-composite: clear;
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    width: 20%;
-                    height: 2px;
-                    border-radius: 50px;
-                    background: #F68948;
-                }
 
                 .field-options {
                     margin-left: 0;
